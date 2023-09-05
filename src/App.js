@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import {ChevronUp, ChevronsUp, RotateCcw, Hash,ChevronsDown,ChevronDown,} from "react-feather";
 
 const App = () => {
