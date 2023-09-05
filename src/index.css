@@ -64,11 +64,12 @@ body {
   }
 
   .count-num {
+    margin-top: 50px;
     font-size: 70px;
   }
 
   .btn-hero {
-    margin-top: 20px;
+    margin-top: 80px;
     gap: 1px;
     padding: 2px;
   }
