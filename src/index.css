@@ -50,33 +50,37 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 586px) {
   .container-main {
     margin-top:30px;
     min-height: 45vh;
     border-radius: 20px;
-    min-width: 99%;
+    min-width: 97%;
+    
   
   }
 
-  .current-value {
-    font-size: 34px;
-  }
-
-  .count-num {
-    margin-top: 50px;
-    font-size: 70px;
-  }
-
   .btn-hero {
-    margin-top: 80px;
     gap: 1px;
-    padding: 2px;
+    
   }
 
+}
+@media screen and (max-width: 650px) {
+  .container-main{
+   width: 80;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .btn-hero{
+    margin-top: 80px;
+      font-size: 2rem;
+  }
+  
   .btn {
-    padding: 10px;
-    min-width: 20pxx;
+      padding: .5rem;
+      margin-top: -40px;
   }
 }
 
