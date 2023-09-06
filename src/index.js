@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import * as Icon from "react-feather";
+import * as  Icon from "react-feather";
 import "./index.css";
 import App from "./App";
 import "./App.css";
